@@ -92,7 +92,6 @@ const GamePieces = ({score,setScore,onGameOver}) => {
             }
         }
 
-
         const handleAppleCollision = (newSnake) => {
 
             const snakeHead = newSnake[0]
@@ -140,7 +139,7 @@ const GamePieces = ({score,setScore,onGameOver}) => {
             drawSnake()
             drawApple()
             moveSnake();
-        }, 100)
+        }, 50)
 
 
         return () => {
